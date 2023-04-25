@@ -13,6 +13,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Courier New', monospace; */
+    overflow-x: hidden;
 }
 *{
     padding: 0;
