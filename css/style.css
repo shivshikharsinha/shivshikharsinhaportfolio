@@ -1,9 +1,10 @@
 @import 'utilities.css';
 :root{
-    --primary:#fca311;
+    --primary:#fb8500;
     --dark:#161616;
     --pure: #FFFFFF;
-    --ternary: #898989;
+    --ternary: #a19e9e;
+    /* --ternary: #adb5bd; */
     --light: #F2F2F2;
     --secondary: #070606;
 }
@@ -15,6 +16,14 @@ body{
     /* font-family: 'Courier New', monospace; */
     overflow-x: hidden;
 }
+/* a{
+    text-decoration: none;
+    color: var(--dark);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--light);
+} */
 *{
     padding: 0;
     margin: 0;
@@ -57,14 +66,14 @@ header nav .branding{
     color: var(--pure);
 }
 .hero .right h6{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--primary);
     margin-bottom: 0.5rem;
 }
 .hero .right h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 100;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 2rem;
 }
 .hero .right h1 span{
@@ -98,8 +107,8 @@ section.about h3{
 }
 section.about p{
     font-family: 'Lato', sans-serif;
-    color: var(--ternary);
-    line-height: 1.9;
+    font-size: 1.1rem;
+    line-height: 1.4;
     margin-bottom: 2rem;
 }
 section.about .social{
@@ -113,6 +122,20 @@ section.about .social a{
     height: 35px;
     border-radius: 50%;
     margin-right: 0.6rem;
+}
+ul{
+    list-style-type: none;
+}
+
+ul.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 1rem 1rem 0 0;
+}
+
+ul.list-container li {
+    flex: 0 0 33.33%;
 }
 section.about .social a:hover{
     background: var(--primary);
@@ -130,7 +153,7 @@ section.about .social a img{
     line-height: 0.5;
 }
 .section-heading + p{
-    color: var(--ternary);
+    /* color: var(--pure); */
     font-family: 'Lato', sans-serif;
     margin-bottom: 8rem;
     text-align: center;
@@ -146,6 +169,9 @@ section.services .card-wrapper{
 }
 section.services{
     background: var(--light);
+}
+section.services p{
+    font-size: 1.15rem;
 }
 section.services .card-wrapper .card{
     background: var(--pure);
@@ -169,18 +195,19 @@ section.services .card-wrapper .card h2{
 }
 section.services .card-wrapper .card p{
     font-family: 'Lato', sans-serif;
-    color: var(--ternary);
+    
     line-height: 1.6;
 }
 section.services .card-wrapper .card:hover{
     background: var(--dark);
+    color: var(--ternary);
 }
 section.services .card-wrapper .card:hover h2, section.services .card-wrapper.card:hover p{
     color: var(--pure);
 }
 section.freelancer{
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/freelancer.jpg);
     background-repeat: cover;
     color: var(--pure);
     clip-path: polygon(0 0, 100% 0,100% 100%,75% 80%,0 100%);
@@ -193,14 +220,17 @@ section.freelancer h1{
 }
 section.freelancer p{
     margin-bottom: 2rem;
+    padding: 0 10rem 0 10rem;
     font-family: 'Lato', sans-serif;
+    font-size: 1.15rem;
 }
 section.reviews .slider .slide img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 2rem;
+    /* border-width: 2px solid #000; */
 }
 section.reviews .slider .slide{
     text-align: center;
@@ -211,11 +241,12 @@ section.reviews .slider .slide{
 }
 section.reviews .slider .slide p{
     font-family: 'Lato', sans-serif;
-    color: var(--ternary);
+    /* color: var(--ternary); */
     margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 section.reviews .slider .slide span{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 section.reviews .slider-dots .dots{
     list-style-type: none;
@@ -242,6 +273,9 @@ section.reviews .dots li.slick-active button{
 }
 section.work{
     background: var(--light);
+}
+section.work p{
+    font-size: 1.15rem;
 }
 section.work .card-wrapper{
     display: grid;
@@ -286,6 +320,10 @@ section.blog{
 }
 section.blog .section-heading{
     color: var(--pure);
+}
+section.blog p{
+    color: var(--light);
+    font-size: 1.15rem;
 }
 section.blog .card-wrapper{
     display: grid;
@@ -333,6 +371,9 @@ section.blog .blog{
     text-align: center;
     align-items: center;
 }
+section.contact p{
+    font-size: 1.15rem;
+}
 section.contact .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -352,7 +393,7 @@ section.contact .card-wrapper .card h1{
 }
 section.contact .card-wrapper .card h6{
     font-size: 1rem;
-    color: var(--ternary);
+    /* color: var(--ternary); */
     font-weight: 400;
     
 }
