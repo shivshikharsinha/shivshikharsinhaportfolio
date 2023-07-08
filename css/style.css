@@ -4,7 +4,6 @@
     --dark:#161616;
     --pure: #FFFFFF;
     --ternary: #a19e9e;
-    /* --ternary: #adb5bd; */
     --light: #F2F2F2;
     --secondary: #070606;
 }
@@ -13,29 +12,24 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Courier New', monospace; */
     overflow-x: hidden;
 }
-/* a{
-    text-decoration: none;
-    color: var(--dark);
-}
-a:hover{
-    text-decoration: none;
-    color: var(--light);
-} */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     --webkit-font-smoothing: antialiased;
 }
+h1{
+    font-size: 2rem;
+}
 header{
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0,100% 100%,80% 87%,0 100%);
 }
 .container{
-    max-width:1152px;
+    max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
     
@@ -73,7 +67,7 @@ header nav .branding{
 .hero .right h1{
     font-size: 3rem;
     font-weight: 100;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: 2rem;
 }
 .hero .right h1 span{
@@ -135,6 +129,7 @@ ul.list-container {
 }
 
 ul.list-container li {
+    padding-bottom: 8px;
     flex: 0 0 33.33%;
 }
 section.about .social a:hover{
@@ -412,14 +407,17 @@ section.contact input{
     padding: 0.5rem 1rem;
     border: 1px solid var(--light);
     font-size: 1rem;
+    font-family: inherit;
 }
 section.contact .input-wrap-2 input{
     margin-bottom: 2rem;
+    font-family: inherit;
 }
 section.contact .input-wrap-2 textarea{
     padding: 0.5rem;
     border: 1px solid var(--light);
     font-size: 1rem;
+    font-family: inherit;
     margin-bottom: 2rem;
 
 }
