@@ -14,417 +14,437 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="flex items-center justify-between">
-                <div class="left flex items-center">
-                    <div class="branding">
-                        <img src=".\images\logo (1).png" alt="logo">
+    <div class="site-main-wrapper">
+        <button class="hamburger">
+            <img src="./images/hamburger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class = "times">
+                <img src="./images/times.svg" alt="">
+            </button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        <header>
+            <div class="container">
+                <nav id = "main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src=".\images\logo (1).png" alt="logo">
+                        </div>
+                        <div>
+                            <a href="index.html">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#blog">Blog</a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="index.html">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#services">Services</a>
-                        <a href="#projects">Projects</a>
-                        <a href="https://thetech-freak.blogspot.com">Blog</a>
+                    <div class="right">
+                        <a href=tel:+918210506397><button class="btn btn-primary">Reach Out</button></a>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/shiv.png" alt="Shiv">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Hey There!</h6>
+                        <h1>I'm Shiv <span> Shikhar Sinha </span> </h1>
+                        <p> Welcome to my Portfolio. I am a Front End Web Developer specializing in creating visually
+                            stunning and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I bring over 4
+                            years of experience in crafting engaging digital experiences. Additionally, I am a Professional
+                            Video Editor, leveraging my skills to create captivating video content. Based in Greater Noida,
+                            India, I have been working as a Full Stack Developer, primarily focusing on front-end
+                            development, for over one year. I am passionate about combining web development and video
+                            editing to deliver dynamic and immersive online solutions.
+                        </p>
+                        <div class = "about-button">
+                            <a href="Shiv Shikhar Sinha- Resume.pdf" download="Shiv Shikhar Sinha- Resume">
+                                <button class="btn btn-secondary"> DOWNLOAD RESUME </button></a>
+                            <a href="#about">
+                                <button class="btn btn-secondary btn-2">READ MORE</button></a>
+                        </div>
                     </div>
                 </div>
-                <div class="right">
-                    <a href=tel:+918210506397><button class="btn btn-primary">Reach Out</button></a>
+            </div>
+        </header>
+        <section class="about" id="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/shiv3.png" alt="">
                 </div>
-            </nav>
-            <div class="hero flex items-center justify-between">
-                <div class="left flex-1 flex justify-center">
-                    <img src="./images/shiv.png" alt="Shiv">
-                </div>
-                <div class="right flex-1">
-                    <h6>Hey There!</h6>
-                    <h1>I'm Shiv <span> Shikhar Sinha </span> </h1>
-                    <p> Welcome to my Portfolio. I am a Front End Web Developer specializing in creating visually
-                        stunning and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I bring over 4
-                        years of experience in crafting engaging digital experiences. Additionally, I am a Professional
-                        Video Editor, leveraging my skills to create captivating video content. Based in Greater Noida,
-                        India, I have been working as a Full Stack Developer, primarily focusing on front-end
-                        development, for over one year. I am passionate about combining web development and video
-                        editing to deliver dynamic and immersive online solutions.
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>
+                        Hello, I'm Shiv Shikhar Sinha
+                    </h3>
+                    <p>and I enjoy creating things that live on the internet. My interest in Web
+                        Development started back in 2020 when I decided to try making a webpage for a gaming tournament —
+                        turns out this little curiosity taught me a lot about HTML & CSS! Fast-forward to today, and
+                        I had worked on several projects including single-page websites, personal portfolios, full-fledged
+                        websites.
+                        My main focus these days is building fucntional and minimal websites and web apps. Here are a
+                        few technologies I have been working with recently:
+                    <ul class="list-container">
+                        <li> Figma <i class="fa-brands fa-figma"></i> </li>
+                        <li> HTML5 <i class="fa-brands fa-html5"></i> </li>
+                        <li> CSS3 <i class="fa-brands fa-css3-alt"></i></li>
+                        <li> JavaScript <i class="fa-brands fa-square-js"></i></li>
+                        <li> BootStrap <i class="fa-brands fa-bootstrap"></i></li>
+                        <li> React.js <i class="fa-brands fa-react"></i></li>
+                        <li> VS Code <i class="fa-solid fa-code"></i></li>
+                        <li> Git <i class="fa-solid fa-code-branch"></i></li>
+                        <li> GitHub <i class="fa-brands fa-github"></i></li>
+                        <li> Netlify <i class="fa-brands fa-github"></i></li>
+                        <li> Behance <i class="fa-brands fa-behance"></i></li>
+                        <li> Font Awesome <i class="fa-brands fa-font-awesome"></i></li>
+    
+                    </ul>
+                    <!-- Social Media Links -->
+                    <div class="wrapper">
+                        <div class="icon instagram">
+                            <div class="tooltip">Instagram</div>
+                            <a href="https://www.instagram.com/sssinha_official"> <span><i
+                                        class="fa-brands fa-instagram"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="icon twitter">
+                            <div class="tooltip">Twitter</div>
+                            <a href="https://www.twitter.com/ShivShikhar"> <span> <i
+                                        class="fa-brands fa-twitter"></i></span>
+                            </a>
+                        </div>
+                        <div class="icon youtube">
+                            <div class="tooltip">YouTube</div>
+                            <a href="https://www.youtube.com/@thetechfreak"> <span> <i
+                                        class="fa-brands fa-youtube"></i></span></a>
+                        </div>
+                        <div class="icon linkedin">
+                            <div class="tooltip">LinkedIn</div>
+                            <a href="https://www.linkedin.com/in/shivshikharsinha"> <span> <i
+                                        class="fa-brands fa-linkedin"></i></span></a>
+                        </div>
+                        <div class="icon github">
+                            <div class="tooltip">GitHub</div>
+                            <a href="https://www.github.com/shivshikharsinha"> <span> <i
+                                        class="fa-brands fa-github"></i></span></a>
+                        </div>
+                        <div class="icon behance">
+                            <div class="tooltip">Behance</div>
+                            <a href="https://www.behance.net/thetech-freak"> <span> <i
+                                        class="fa-brands fa-behance"></i></span></a>
+                        </div>
+                    </div>
                     </p>
-                    <div>
-                        <a href="Shiv Shikhar Sinha- Resume.pdf" download="Shiv Shikhar Sinha- Resume">
-                            <button class="btn btn-secondary"> DOWNLOAD RESUME </button></a>
-                        <a href="#about">
-                            <button class="btn btn-secondary">READ MORE</button></a>
+                    
+    
+    
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Services</h1>
+                <p> I offer a range of expertise in Web Development, UI/UX design, Video Editing,
+                    and Technical Writing. I can help you take your project to the next level. Let's work together to
+                    achieve your goals and create something truly exceptional.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/code.png" alt="">
+                        <h2>Web Development</h2>
+                        <p>HTML, CSS, JavaScript, BootStrap, React.js etc.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/desktop.png" alt="">
+                        <h2>Web Design</h2>
+                        <p>Designed UI/UX of various personal projects.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/phone.png" alt="">
+                        <h2> App Design</h2>
+                        <p>Designed UI/UX of various personal projects.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/media.png" alt="">
+                        <h2> Video Editing </h2>
+                        <p>Edited several youtube videos, documentary films, short films for 4+ years.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/brush.png" alt="">
+                        <h2>Graphic Design</h2>
+                        <p>Designed several posters, banners for Club Events.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/bag.png" alt="">
+                        <h2>Technical Writing</h2>
+                        <p>Worked on various personal and internship projects. </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section class="about" id="about">
-        <div class="container flex items-center">
-            <div class="flex-1">
-                <img class="about-me-img" src="./images/shiv3.png" alt="">
+        </section>
+        <section class="freelancer">
+            <h1>I Am Available As A Freelancer.</h1>
+            <p>As a versatile freelancer, I offer a diverse range of services including Web Development, UI/UX Design, Video
+                Editing, and Technical Writing. Let's collaborate and bring your vision to life through my freelance
+                services.</p>
+            <a href="Shiv Shikhar Sinha- Resume.pdf" download="Shiv Shikhar Sinha- Resume">
+                <button class="btn btn-primary">Download CV</button></a>
+            <a href="https://www.linkedin.com/in/shivshikharsinha" target="_blank">
+                <button class="btn btn-primary">LinkedIn</button></a>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span> Clients</h1>
+                <p>I have helped many clients with their projects ensuring 100% satisfaction in several domains.<br> Here
+                    are some of the testimonials by them. </p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/karanjadaun.jpg" alt="">
+                        <p> "Shiv is a wonderful developer, who has contributed himself to development. He is a wonderful
+                            blogger, Innovating hundreds of ideas. Shiv is the excellence you want in your team for a video
+                            editing, graphic designing session."</p>
+                        <span> - Karan Jadaun, Android Developer</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/sameergautam.jpg" alt="">
+                        <p> "I hired Shiv Shikhar to edit vlogs for my YouTube channel. He edited the videos exactly to my
+                            requirements. He was very communicative and ensured my feedback was applied to produce the video
+                            I was looking for. I can definitely recommend working with him, you will definitely not regret
+                            it."</p>
+                        <span> - Sameer Gautam, Chatbot Marketing Freelancer</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/ay04ramos.jpg" alt="">
+                        <p> "I have worked with many professionals throughout my journey, but Shiv was a unique to work
+                            with. His work ethics are pristine,and he is easily adjustable to a given situation. I highly
+                            recommend his expertise to any person looking for a professional video editor or/and a blog
+                            writer."</p>
+                        <span> - Abhilekh Yadav, Data Analyst </span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/mayanksir.jpg" alt="">
+                        <p> "Shiv Shikhar is very much sincere to the assigned tasks. He is dedicated and quite creative at
+                            the same time. Apart from technical skills, his video editing and social media engagement is
+                            really amazing. I wish you the best for future endeavours."</p>
+                        <span> - Mayank Deep Khare, Faculty Co-ordinator & HoD- CSE-IoT, NIET</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
             </div>
-            <div class="flex-1">
-                <h1>About <span>Me</span></h1>
-                <h3>
-                    Hello, I'm Shiv Shikhar Sinha
-                </h3>
-                <p>and I enjoy creating things that live on the internet. My interest in Web
-                    Development started back in 2020 when I decided to try making a webpage for a gaming tournament —
-                    turns out this little curiosity taught me a lot about HTML & CSS! Fast-forward to today, and
-                    I had worked on several projects including single-page websites, personal portfolios, full-fledged
-                    websites.
-                    My main focus these days is building fucntional and minimal websites and web apps. Here are a
-                    few technologies I have been working with recently:
-                <ul class="list-container">
-                    <li> Figma <i class="fa-brands fa-figma"></i> </li>
-                    <li> HTML5 <i class="fa-brands fa-html5"></i> </li>
-                    <li> CSS3 <i class="fa-brands fa-css3-alt"></i></li>
-                    <li> JavaScript <i class="fa-brands fa-square-js"></i></li>
-                    <li> BootStrap <i class="fa-brands fa-bootstrap"></i></li>
-                    <li> React.js <i class="fa-brands fa-react"></i></li>
-                    <li> VS Code <i class="fa-solid fa-code"></i></li>
-                    <li> Git <i class="fa-solid fa-code-branch"></i></li>
-                    <li> GitHub <i class="fa-brands fa-github"></i></li>
-                    <li> Netlify <i class="fa-brands fa-github"></i></li>
-                    <li> Behance <i class="fa-brands fa-behance"></i></li>
-                    <li> Font Awesome <i class="fa-brands fa-font-awesome"></i></li>
-
-                </ul>
+        </section>
+        <section class="work" id="projects">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span> Projects</h1>
+                <p>I build sleek websites with exceptional UI/UX design that deliver an effortless user experience. Trust me
+                    to create a visually stunning and highly functional website that elevates your business's online
+                    presence.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="https://shivshikharsinha.netlify.app" target="_blank"> Web Development</a>
+                        </div>
+                        <img src="./images/Portfolio-Thumbnail.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="https://shivs-netflix-clone.netlify.app" target="_blank"> Web Development</a>
+                        </div>
+                        <img src="./images/Netflix-Thumbnail.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="https://nehafilmspatna.netlify.app" target="_blank"> Web Development</a>
+                        </div>
+                        <img src="./images/NF-Thumbnail.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="#"> Web UI/UX Design</a>
+                        </div>
+                        <img src="./images/meetkit.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="https://sinharealestate.netlify.app" target="_blank"> Bootstrap Development</a>
+                        </div>
+                        <img src="./images/sinharealestate.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="https://www.behance.net/gallery/169984553/UIUX-Design-Smart-Classroom-App"
+                                target="_blank"> App UI/UX
+                                Design</a>
+                        </div>
+                        <img src="./images/revamp.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href="https://www.behance.net/gallery/174009613/Personal-Portfolio-Design-UIUX"
+                                target="_blank"> Personal
+                                Portfolio UI/UX Design</a>
+                        </div>
+                        <img src="./images/portfolio-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span> Category</span>
+                            <a href=""> Personal
+                                Portfolio UI/UX Design</a>
+                        </div>
+                        <img src="./images/portfolio-2.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    
+        <section class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span> My </span> Blog </h1>
+                <p>
+                    In my blog, I explore the exciting world of tech, sharing insights on gadgets, software innovations,
+                    photography, video editing, and content creation. Join me on a journey where tech and creativity
+                    collide, empowering you to unleash the full potential of digital media.
                 </p>
-                <!-- Social Media Links -->
-                <div class="wrapper">
-                    <div class="icon instagram">
-                        <div class="tooltip">Instagram</div>
-                        <a href="https://www.instagram.com/sssinha_official"> <span><i
-                                    class="fa-brands fa-instagram"></i>
-                            </span>
-                        </a>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/bigdata.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="https://thetech-freak.blogspot.com/2021/11/what-is-big-data-basic-overview.html"
+                                target="_blank">
+                                <h1>What is Big Data ? - A Basic Overview</h1>
+                            </a>
+                            <span>Saturday, November 13, 2021</span>
+                            <p>
+                                Big data is a term that refers to the growing amount of data being processed, collected,
+                                and analyzed in the information age. The term was first introduced by IBM in the 1990s
+                                to address their increasingly large volume of raw data.
+                            </p>
+                            <a href="https://thetech-freak.blogspot.com/2021/11/what-is-big-data-basic-overview.html"
+                                target="_blank">Read
+                                More</a>
+                        </div>
                     </div>
-                    <div class="icon twitter">
-                        <div class="tooltip">Twitter</div>
-                        <a href="https://www.twitter.com/ShivShikhar"> <span> <i
-                                    class="fa-brands fa-twitter"></i></span>
-                        </a>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/microphone.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="https://thetech-freak.blogspot.com/2021/08/audio-technica-at2020-cardioid.html"
+                                target="_blank">
+                                <h1>Audio Technica AT2020 Cardioid Condenser Microphone Review
+                                </h1>
+                            </a>
+                            <span>Friday, August 27, 2021</span>
+                            <p>
+                                In this article, we will talk about Audio Technica AT2020 Microphone which was launched
+                                in July 2014 and is a Budget Condenser Microphone that offers great value for money. You
+                                can guess its popularity...
+                            </p>
+                            <a href="https://thetech-freak.blogspot.com/2021/08/audio-technica-at2020-cardioid.html"
+                                target="_blank">Read More</a>
+                        </div>
                     </div>
-                    <div class="icon youtube">
-                        <div class="tooltip">YouTube</div>
-                        <a href="https://www.youtube.com/@thetechfreak"> <span> <i
-                                    class="fa-brands fa-youtube"></i></span></a>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/affiliate.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="https://thetech-freak.blogspot.com/2020/07/affiliate-marketing-beginners-guide.html"
+                                target="_blank">
+                                <h1>Affiliate Marketing- A Beginner's Guide</h1>
+                            </a>
+                            <span>Sunday, July 26, 2021</span>
+                            <p>
+                                Smart people maintaining a flourishing business know there's in every case more they can
+                                do to make that business develop. One method of taking things to the following level is
+                                by finding a substitute stream of income. That doesn't mean starting a subsequent
+                                business...
+                            </p>
+                            <a href="https://thetech-freak.blogspot.com/2020/07/affiliate-marketing-beginners-guide.html"
+                                target="_blank">Read More</a>
+                        </div>
+    
                     </div>
-                    <div class="icon linkedin">
-                        <div class="tooltip">LinkedIn</div>
-                        <a href="https://www.linkedin.com/in/shivshikharsinha"> <span> <i
-                                    class="fa-brands fa-linkedin"></i></span></a>
-                    </div>
-                    <div class="icon github">
-                        <div class="tooltip">GitHub</div>
-                        <a href="https://www.github.com/shivshikharsinha"> <span> <i
-                                    class="fa-brands fa-github"></i></span></a>
-                    </div>
-                    <div class="icon behance">
-                        <div class="tooltip">Behance</div>
-                        <a href="https://www.behance.net/thetech-freak"> <span> <i
-                                    class="fa-brands fa-behance"></i></span></a>
-                    </div>
+    
+    
                 </div>
-
-
+                <div class="blog"><a href="https://thetech-freak.blogspot.com" target="_blank">
+                        <button class="btn btn-secondary">Visit The Tech-Freak</button></a></div>
             </div>
-        </div>
-    </section>
-    <section class="services" id="services">
-        <div class="container">
-            <h1 class="section-heading"><span>My </span>Services</h1>
-            <p> I offer a range of expertise in Web Development, UI/UX design, Video Editing,
-                and Technical Writing. I can help you take your project to the next level. Let's work together to
-                achieve your goals and create something truly exceptional.</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="./images/code.png" alt="">
-                    <h2>Web Development</h2>
-                    <p>HTML, CSS, JavaScript, BootStrap, React.js etc.</p>
+        </section>
+    
+        </section>
+        <section class=" contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span> Me</span></h1>
+                <p>Let's connect and discuss potential collaborations. Reach out to me to explore how I can contribute my
+                    skills and expertise as a freelancer. Excited to work together!</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-2.png" alt="">
+                        <h2>Call me on</h2>
+                        <h6>+91 8210506397</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/msg.png" alt="">
+                        <h2>Email Me </h2>
+                        <h6>shiv.shikhar.3@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/map.png" alt="">
+                        <h2>Visit Office</h2>
+                        <h6>52, Block E, Alpha- 1 , Greater Noida-201307 </h6>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="./images/desktop.png" alt="">
-                    <h2>Web Design</h2>
-                    <p>Designed UI/UX of various personal projects.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/phone.png" alt="">
-                    <h2> App Design</h2>
-                    <p>Designed UI/UX of various personal projects.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/media.png" alt="">
-                    <h2> Video Editing </h2>
-                    <p>Edited several youtube videos, documentary films, short films for 4+ years.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/brush.png" alt="">
-                    <h2>Graphic Design</h2>
-                    <p>Designed several posters, banners for Club Events.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/bag.png" alt="">
-                    <h2>Technical Writing</h2>
-                    <p>Worked on various personal and internship projects. </p>
-                </div>
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your E-mail">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary"> Send Message</button>
+                    </div>
             </div>
-        </div>
-    </section>
-    <section class="freelancer">
-        <h1>I Am Available As A Freelancer.</h1>
-        <p>As a versatile freelancer, I offer a diverse range of services including Web Development, UI/UX Design, Video
-            Editing, and Technical Writing. Let's collaborate and bring your vision to life through my freelance
-            services.</p>
-        <a href="Shiv Shikhar Sinha- Resume.pdf" download="Shiv Shikhar Sinha- Resume">
-            <button class="btn btn-primary">Download CV</button></a>
-        <a href="https://www.linkedin.com/in/shivshikharsinha" target="_blank">
-            <button class="btn btn-primary">LinkedIn</button></a>
-    </section>
-    <section class="reviews">
-        <div class="container">
-            <h1 class="section-heading"><span>My </span> Clients</h1>
-            <p>I have helped many clients with their projects ensuring 100% satisfaction in several domains.<br> Here
-                are some of the testimonials by them. </p>
-            <div class="slider">
-                <div class="slide">
-                    <img src="./images/karanjadaun.jpg" alt="">
-                    <p> "Shiv is a wonderful developer, who has contributed himself to development. He is a wonderful
-                        blogger, Innovating hundreds of ideas. Shiv is the excellence you want in your team for a video
-                        editing, graphic designing session."</p>
-                    <span> - Karan Jadaun, Android Developer</span>
-                </div>
-                <div class="slide">
-                    <img src="./images/sameergautam.jpg" alt="">
-                    <p> "I hired Shiv Shikhar to edit vlogs for my YouTube channel. He edited the videos exactly to my
-                        requirements. He was very communicative and ensured my feedback was applied to produce the video
-                        I was looking for. I can definitely recommend working with him, you will definitely not regret
-                        it."</p>
-                    <span> - Sameer Gautam, Chatbot Marketing Freelancer</span>
-                </div>
-                <div class="slide">
-                    <img src="./images/ay04ramos.jpg" alt="">
-                    <p> "I have worked with many professionals throughout my journey, but Shiv was a unique to work
-                        with. His work ethics are pristine,and he is easily adjustable to a given situation. I highly
-                        recommend his expertise to any person looking for a professional video editor or/and a blog
-                        writer."</p>
-                    <span> - Abhilekh Yadav, Data Analyst </span>
-                </div>
-                <div class="slide">
-                    <img src="./images/mayanksir.jpg" alt="">
-                    <p> "Shiv Shikhar is very much sincere to the assigned tasks. He is dedicated and quite creative at
-                        the same time. Apart from technical skills, his video editing and social media engagement is
-                        really amazing. I wish you the best for future endeavours."</p>
-                    <span> - Mayank Deep Khare, Faculty Co-ordinator & HoD- CSE-IoT, NIET</span>
-                </div>
+            </form>
             </div>
-            <div class="slider-dots"></div>
-        </div>
-    </section>
-    <section class="work" id="projects">
-        <div class="container">
-            <h1 class="section-heading"><span>My </span> Projects</h1>
-            <p>I build sleek websites with exceptional UI/UX design that deliver an effortless user experience. Trust me
-                to create a visually stunning and highly functional website that elevates your business's online
-                presence.</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="https://shivshikharsinha.netlify.app" target="_blank"> Web Development</a>
-                    </div>
-                    <img src="./images/Portfolio-Thumbnail.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="https://shivs-netflix-clone.netlify.app" target="_blank"> Web Development</a>
-                    </div>
-                    <img src="./images/Netflix-Thumbnail.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="https://nehafilmspatna.netlify.app" target="_blank"> Web Development</a>
-                    </div>
-                    <img src="./images/NF-Thumbnail.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="#"> Web UI/UX Design</a>
-                    </div>
-                    <img src="./images/meetkit.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="https://sinharealestate.netlify.app" target="_blank"> Bootstrap Development</a>
-                    </div>
-                    <img src="./images/sinharealestate.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="https://www.behance.net/gallery/169984553/UIUX-Design-Smart-Classroom-App"
-                            target="_blank"> App UI/UX
-                            Design</a>
-                    </div>
-                    <img src="./images/revamp.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href="https://www.behance.net/gallery/174009613/Personal-Portfolio-Design-UIUX"
-                            target="_blank"> Personal
-                            Portfolio UI/UX Design</a>
-                    </div>
-                    <img src="./images/portfolio-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span> Category</span>
-                        <a href=""> Personal
-                            Portfolio UI/UX Design</a>
-                    </div>
-                    <img src="./images/portfolio-2.png" alt="">
-                </div>
-
+        </section>
+        <footer>
+            <img class="footer-logo" src="./images/logo (1).png" alt="">
+            <div class="footer-socials">
+                <a href="https://thetech-freak.blogspot.com"><img src="./images/website.png" alt=""></a>
+                <a href="https://www.facebook.com/shiv.shikhar.7"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://www.twitter.com/ShivShikhar"><img src="./images/twitter.png" alt=""></a>
+                <a href="https://behance.net/thetech-freak"><img src="./images/pintrest.png" alt=""></a>
+                <a href="https://www.instagram.com/sssinha_official"><img src="./images/instagram.png" alt=""></a>
             </div>
-        </div>
-    </section>
-
-    <section class="blog">
-        <div class="container">
-            <h1 class="section-heading"><span> My </span> Blog </h1>
-            <p>
-                In my blog, I explore the exciting world of tech, sharing insights on gadgets, software innovations,
-                photography, video editing, and content creation. Join me on a journey where tech and creativity
-                collide, empowering you to unleash the full potential of digital media.
-            </p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="./images/bigdata.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="https://thetech-freak.blogspot.com/2021/11/what-is-big-data-basic-overview.html"
-                            target="_blank">
-                            <h1>What is Big Data ? - A Basic Overview</h1>
-                        </a>
-                        <span>Saturday, November 13, 2021</span>
-                        <p>
-                            Big data is a term that refers to the growing amount of data being processed, collected,
-                            and analyzed in the information age. The term was first introduced by IBM in the 1990s
-                            to address their increasingly large volume of raw data.
-                        </p>
-                        <a href="https://thetech-freak.blogspot.com/2021/11/what-is-big-data-basic-overview.html"
-                            target="_blank">Read
-                            More</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="./images/microphone.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="https://thetech-freak.blogspot.com/2021/08/audio-technica-at2020-cardioid.html"
-                            target="_blank">
-                            <h1>Audio Technica AT2020 Cardioid Condenser Microphone Review
-                            </h1>
-                        </a>
-                        <span>Friday, August 27, 2021</span>
-                        <p>
-                            In this article, we will talk about Audio Technica AT2020 Microphone which was launched
-                            in July 2014 and is a Budget Condenser Microphone that offers great value for money. You
-                            can guess its popularity...
-                        </p>
-                        <a href="https://thetech-freak.blogspot.com/2021/08/audio-technica-at2020-cardioid.html"
-                            target="_blank">Read More</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="./images/affiliate.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="https://thetech-freak.blogspot.com/2020/07/affiliate-marketing-beginners-guide.html"
-                            target="_blank">
-                            <h1>Affiliate Marketing- A Beginner's Guide</h1>
-                        </a>
-                        <span>Sunday, July 26, 2021</span>
-                        <p>
-                            Smart people maintaining a flourishing business know there's in every case more they can
-                            do to make that business develop. One method of taking things to the following level is
-                            by finding a substitute stream of income. That doesn't mean starting a subsequent
-                            business...
-                        </p>
-                        <a href="https://thetech-freak.blogspot.com/2020/07/affiliate-marketing-beginners-guide.html"
-                            target="_blank">Read More</a>
-                    </div>
-
-                </div>
-
-
+            <div class="copyright">
+                Copyright 2023 © Shiv Shikhar Sinha | All Right Reserved
             </div>
-            <div class="blog"><a href="https://thetech-freak.blogspot.com" target="_blank">
-                    <button class="btn btn-secondary">Visit The Tech-Freak</button></a></div>
-        </div>
-    </section>
-
-    </section>
-    <section class=" contact">
-        <div class="container">
-            <h1 class="section-heading">Contact <span> Me</span></h1>
-            <p>Let's connect and discuss potential collaborations. Reach out to me to explore how I can contribute my
-                skills and expertise as a freelancer. Excited to work together!</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="./images/phone-2.png" alt="">
-                    <h2>Call me on</h2>
-                    <h6>+91 8210506397</h6>
-                </div>
-                <div class="card">
-                    <img src="./images/msg.png" alt="">
-                    <h2>Email Me </h2>
-                    <h6>shiv.shikhar.3@gmail.com</h6>
-                </div>
-                <div class="card">
-                    <img src="./images/map.png" alt="">
-                    <h2>Visit Office</h2>
-                    <h6>52, Block E, Alpha- 1 , Greater Noida-201307 </h6>
-                </div>
-            </div>
-            <form action="">
-                <div class="input-wrap">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your E-mail">
-                </div>
-                <div class="input-wrap-2">
-                    <input type="text" placeholder="Your Subject">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                </div>
-                <div class="btn-wrapper">
-                    <button class="btn btn-primary"> Send Message</button>
-                </div>
-        </div>
-        </form>
-        </div>
-    </section>
-    <footer>
-        <img class="footer-logo" src="./images/logo (1).png" alt="">
-        <div class="footer-socials">
-            <a href="https://thetech-freak.blogspot.com"><img src="./images/website.png" alt=""></a>
-            <a href="https://www.facebook.com/shiv.shikhar.7"><img src="./images/facebook.png" alt=""></a>
-            <a href="https://www.twitter.com/ShivShikhar"><img src="./images/twitter.png" alt=""></a>
-            <a href="https://behance.net/thetech-freak"><img src="./images/pintrest.png" alt=""></a>
-            <a href="https://www.instagram.com/sssinha_official"><img src="./images/instagram.png" alt=""></a>
-        </div>
-        <div class="copyright">
-            Copyright 2023 © Shiv Shikhar Sinha | All Right Reserved
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
