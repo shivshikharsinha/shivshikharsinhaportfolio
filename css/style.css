@@ -707,6 +707,11 @@ footer .copyright{
         margin-top: 4rem;
     }
 }
+@media (max-width: 1024px) and (min-width: 576px){
+    .about-inner-wrap{
+        flex-direction: column;
+    }
+}
 @media (max-width: 576px){
     .hero{
         flex-direction: column;
