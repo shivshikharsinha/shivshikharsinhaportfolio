@@ -424,7 +424,7 @@ section.work .card-wrapper .card .overlay{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(252, 163, 17, 0.9);
+    background: rgba(32, 32, 32, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -438,7 +438,7 @@ section.work .card-wrapper .card:hover .overlay{
     opacity: 1;
 }
 section.work .card-wrapper .card .overlay a{
-    color: var(--secondary);
+    color: var(--primary);
     text-decoration: none;
 }
 section.work .card-wrapper .card img{
