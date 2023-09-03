@@ -150,12 +150,7 @@ ul.list-container li {
 /* Social Icons with ToolTip */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /*  */
-}
+
 html,
 body {
   text-decoration: none;
@@ -715,7 +710,9 @@ footer .copyright{
 @media (max-width: 576px){
     .hero{
         flex-direction: column;
+        padding-bottom: 21rem;
     }
+    
     header{
         clip-path: polygon(0 0, 100% 0,100% 100%,88% 98%,0 100%);
     }
