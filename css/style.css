@@ -709,6 +709,9 @@ footer .copyright{
 }
 
 @media (max-width: 576px){
+    *{
+        overflow-x: hidden;
+    }
     .hero{
         flex-direction: column;
         padding-bottom: 11rem;
