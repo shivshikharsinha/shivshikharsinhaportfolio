@@ -707,12 +707,15 @@ footer .copyright{
         flex-direction: column;
     }
 }
+
 @media (max-width: 576px){
     .hero{
         flex-direction: column;
-        padding-bottom: 21rem;
+        padding-bottom: 11rem;
     }
-    
+    .hero .right p{
+        font-size: 0.85rem;
+    }
     header{
         clip-path: polygon(0 0, 100% 0,100% 100%,88% 98%,0 100%);
     }
@@ -738,8 +741,19 @@ footer .copyright{
         padding: 4rem 0;
     }
     section.about p{
-        padding: 0 2.2rem;
+        width: 95%; 
+        margin: 0 auto;
+        font-size: 0.87rem;
     }
+    
+    section.about p + ul {
+        display: grid;
+        padding: 2rem 4rem;
+    }
+    section.about .wrapper{
+        display: grid;
+    }
+
     section.services .card-wrapper {
         grid-template-columns: repeat(1, 1fr);
         margin: 6rem 1rem 0 1rem;
