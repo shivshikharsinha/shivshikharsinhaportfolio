@@ -749,10 +749,15 @@ footer .copyright{
     
     section.about p + ul {
         display: grid;
-        padding: 2rem 4rem;
+        padding: 0 4rem;
+        padding-top: 1rem ;
     }
+    
     section.about .wrapper{
         display: grid;
+    }
+    section.about .wrapper .icon{
+        padding-top: 1rem;
     }
 
     section.services .card-wrapper {
