@@ -650,6 +650,7 @@ footer .copyright{
 /* Media Queries */
 
 @media (max-width: 1024px){
+    
     header #main-nav{
         display: none;
     }
@@ -672,9 +673,12 @@ footer .copyright{
         height: 350px;
     }
     .hero .about-button{
-        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
     }
     .hero .about-button button{
+        padding: 12px;
         margin-bottom: 2rem;
     }
     .hero .about-button button btn-2{
@@ -703,16 +707,40 @@ footer .copyright{
     }
 }
 @media (max-width: 1024px) and (min-width: 576px){
+    
     .about-inner-wrap{
         flex-direction: column;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (max-width: 576px){
-    
+    .about-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-button .btn{
+        padding: 12px;
+        margin-inline: 10px;
+    }
+    .wrapper .icon span { 
+        height: 25px;
+        width: 25px;
+    }
+    ul.list-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     .hero{
         flex-direction: column;
-        padding-bottom: 11rem;
+        padding-bottom: 10rem
+    }
+    .hero .right h6 {
+        padding-top: 13rem;
     }
     .hero .right p{
         font-size: 0.85rem;
@@ -754,7 +782,8 @@ footer .copyright{
     }
     
     section.about .wrapper{
-        display: grid;
+        display: flex;
+        justify-content: center;
     }
     section.about .wrapper .icon{
         padding-top: 1rem;
@@ -796,4 +825,15 @@ footer .copyright{
         grid-template-columns: repeat(1, 1fr);
 
     }
+}
+@media (max-width: 378px){
+    .about-button .btn{
+        padding: 8px;
+        margin-inline: 5px;
+        font-size: 0.9rem;
+    }
+    .hero .right {
+        margin-top: -10rem;
+    }
+    
 }
